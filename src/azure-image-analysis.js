@@ -1,8 +1,8 @@
 // azure-image-analysis.js
 import axios from 'axios';
 
-const subscriptionKey = process.env.REACT_APP_SUBSCRIPTION_KEY;
-const endpoint = process.env.REACT_APP_ENDPOINT;
+const subscriptionKey = process.env.REACT_APP_AZURE_SUBSCRIPTION_KEY;
+const endpoint = process.env.REACT_APP_AZURE_ENDPOINT;
 
 export async function analyzeImage(imageUrl, features) {
   const headers = {
