@@ -10,12 +10,6 @@ export async function analyzeImage(imageUrl, features) {
     'Ocp-Apim-Subscription-Key': subscriptionKey
   };
 
-  const params = {
-    'visualFeatures': features,
-    'details': '',
-    'language': 'en'
-  };
-
   const body = {
     url: imageUrl
   };
